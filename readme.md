@@ -1,7 +1,7 @@
 # README
-C++ - Takes a text file and changes every instance of 'beep' with 'boop'.  
+* __C++__ - Takes a text file andchanges every instance of 'beep' with 'boop'.  
 Usage: './beep_to_boop <TXT FILENAME>'  
 
-Perl - Will bring you whatever you ask for.  
-Ruby - Makes a random horse noise.  
-Python - get a ramen recipe from the internet.  
+* __Perl__ - Will bring you whatever you ask for.  
+* __Ruby__ - Makes a random horse noise.  
+* __Python__ - get a ramen recipe from the internet.  
