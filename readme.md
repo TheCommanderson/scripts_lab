@@ -1,4 +1,4 @@
-H1 README
+# README
 C++ - Takes a text file and changes every instance of 'beep' with 'boop'.  
 Usage: './beep_to_boop <TXT FILENAME>'  
 
