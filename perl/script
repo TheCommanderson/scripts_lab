@@ -1,0 +1,25 @@
+use Switch;
+use 5.10.1;
+
+my ($num) = @ARGV;
+print "This script sums the numbers between 1 and the given number, $num\n";
+
+$j = 1;
+for($i = 1; $i < $num+1; $i = $i + 1){
+  print "$j\n";
+  $j = $j + $i;
+}
+print "$j\n";
+
+($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();
+
+given($num) 
+{
+  when($sec) {print "$num is also the number of seconds that has passed this minute!";}
+  when($min) {print "$num is also the number of minutes past the hour!";}
+  when($hour) {print "$num is also the hour of the day!";}
+  when($mday) {print "$num is also the day of the month!";}
+  when($mon+1) {print "$num is also the month!";}
+  default {print "there is nothing special about this number...";}
+}
+print "\n";
